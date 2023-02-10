@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body{
+ background-color: hsl(217, 54%, 11%);
+ font-size: 18px;
+ font-family: 'Outfit', sans-serif;
+}
+.card{
+    width: 357px;
+    height: 595px;
+    background-color: hsl(216, 50%, 16%);
+    margin: 152px 545px;
+    border-radius: 1em;
+}
+.imag{
+´position: relative; 
+ display: flex;
+ 
+}
+.imagone{
+    width: 303px;
+    height: 303px;
+    margin: 21px 26px 0 26px;
+    border-radius: 1em;
+
+}
+.segundaimagen{
+    position: absolute;
+    background-color: aqua;
+    width: 303px;
+    height: 303px;
+    border-radius: 1em;
+    margin: 21px 26px 0 26px;
+    opacity: 0;
+}
+.imagdwo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.segundaimagen:hover{
+    opacity: 80% ;
+    cursor:pointer;
+}
+
+.information{
+   width: 303px;
+   height: 100px;
+   margin: 21px 26px 0 26px;
+   margin-bottom: 0;
+  
+
+}
+.titulo{
+    font-size: 19px;
+    color: white;
+   
+}
+.titulo:hover
+,.User:hover{
+    color: hsl(178, 100%, 50%);
+
+}
+.information p{
+    color:hsla(215, 52%, 70%, 0.507);
+    margin-bottom: 0;
+  
+}
+.conteiner-etherium{
+   width: 303px;
+   height: 61px;
+   display: flex;
+   justify-content: space-between;
+   margin: 0px 26px 0 26px;
+   align-items: center;
+}
+.conteiner-etherium{
+    border-bottom: 1px solid hsla(215, 52%, 70%, 0.507);
+}
+.etherium p{
+    margin-top: 3px;
+    color: hsl(178, 100%, 50%);
+    font-weight: bold;
+   
+}
+.etherium p::before{
+    content: url(images/icon-ethereum.svg);
+    margin-right: 3px;
+    
+}
+
+.time p{
+    margin-top: 3px;
+    color: hsla(215, 52%, 70%, 0.507);
+    
+}
+.time p::before{
+    content: url(images/icon-clock.svg);
+    margin-right: 3px;
+}
+.User{
+    width: 303px;
+    height: 70px;
+    margin: 0 26px 0 26px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    
+
+}
+.icono{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 1px solid white;
+   
+}
+.text1{
+    color: hsla(215, 52%, 70%, 0.507);
+    margin-right: 5px;
+}
+
+
+.attribution { font-size: 11px; text-align: center; 
+color: aliceblue;
+}
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (max-width: 375px) {
+
+    .card{
+        margin: 20px 24px 20px 2px;
+    } 
+}
